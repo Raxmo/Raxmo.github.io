@@ -1,0 +1,33 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+p
+{
+    text-indent: 4rem;
+}
+
+header
+{
+    text-align: center;
+    border-bottom: solid 4px;
+}
+
+.NavBar
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-bottom: solid 4px;
+    border-right: solid 2px;
+    border-left: solid 2px;
+}
+
+.NavItem
+{
+    flex-grow: 1;
+    text-align: center;
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
